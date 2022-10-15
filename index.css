@@ -1,0 +1,136 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 180vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  background: #ebe7e7;
+}
+
+.container {
+  width: 640px;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 1px solid #dbdbdb;
+}
+
+.topbar {
+  width: 100%;
+  height: 75px;
+  padding: 25px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileimg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.profileimg img {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: inline-block;
+  object-fit: cover;
+}
+
+.profileimg span {
+  margin-left: 50px;
+}
+
+.mainimg {
+  width: 640px;
+  height: 640px;
+  margin-bottom: 15px;
+}
+
+.mainimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.icons .fa {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.icons .leftside .fa {
+  margin: 0px 3px;
+  color: #010101;
+}
+
+.likeCount p {
+  color: #010101;
+  font-size: 14px;
+}
+
+.content p {
+  padding: 5px 0;
+}
+
+.comments p {
+  font-size: 14px;
+  color: #dbdbdb;
+  padding: 5px 0;
+  padding-bottom: 10px;
+}
+
+.commentsbox {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  padding: 8px 16px 8px 0;
+  font-size: 24px;
+}
+
+.inputfield {
+  width: 100%;
+}
+
+.inputfield input {
+  width: 100%;
+  padding: 10px;
+  border: none !important;
+  outline: none;
+}
+
+.btn button {
+  background: transparent;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: #207be2;
+  font-weight: 600;
+}
